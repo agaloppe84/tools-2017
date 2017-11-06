@@ -1,0 +1,48 @@
+.btn-variant-1 {
+  padding: 10px 20px;
+  border: 1px solid #2BB3C0;
+  border-radius: 3px;
+}
+
+.btn-variant-2 {
+  padding: 10px 20px;
+  border: 1px solid #2BB3C0;
+  border-radius: 3px;
+  color: white;
+  background-color: #2BB3C0;
+}
+
+.banner {
+  height: 60vh;
+  background-color: rgb(55,55,65);
+  background-size: cover;
+  background-position: center;
+  padding: 60px;
+}
+
+
+.banner-content {
+  flex: 1;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2px dashed rgba(255,255,255,0.4);
+}
+
+.wrapper {
+  background-color: rgba(55,55,65,0.2);
+  padding: 40px;
+}
+
+.wrapper-item {
+  flex: 1;
+  padding: 30px;
+  height: 100px;
+  border: 2px dashed rgba(255,255,255,0.4);
+  margin: 20px;
+}
+
+
+.wrapper-grid {
+  background-color: rgba(55,55,65,0.2);
+  padding: 30px;
+}

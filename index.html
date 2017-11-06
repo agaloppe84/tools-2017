@@ -1,58 +1,53 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Layouts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+  <div class="container">
 
-  <div class="main-container">
 
-    <div class="infos-container">
-
-      <input type="text" id="color-input">
-
-      <div class="display">
-        <div class="top">
-          <div class="circle-conf"></div>
-        </div>
-        <div class="bottom"></div>
+    <div class="cardbox flexbox flex-column">
+      <div class="flexbox card-header">
+        <h2>Layouts</h2>
       </div>
 
-
-      <div class="item-container">
-        <div class="comp-header">Perfect match</div>
-        <div class="comparison-1"></div>
+      <div class="flexbox flex-column">
+        <a href="navbar_scroll.html" class="custom-btn">Navbar changes when scrolling</a>
+        <a href="colors.html" class="custom-btn">Generate random colors</a>
       </div>
 
-
-      <div class="item-container">
-        <div class="comp-header">Closest match</div>
-        <div class="comparison-container">
-          <div class="comparison-2"></div>
-          <i class="fa fa-arrows-h icon-1" aria-hidden="true"></i>
-          <div class="comparison-2-bis"></div>
-        </div>
+      <div class="flexbox card-footer">
+        <p>2 items</p>
       </div>
-
-      <div class="item-container">
-        <div class="comp-header">HEX version</div>
-        <div class="comparison-3"></div>
-      </div>
-
-      <div class="trigger">Generate random colors</div>
-
     </div>
-    <div class="colorpicker"></div>
+
+    <div class="cardbox flexbox flex-column">
+      <div class="flexbox card-header">
+        <h2>Components</h2>
+      </div>
+
+      <div class="flexbox flex-column">
+        <a href="buttons.html" class="custom-btn">Buttons</a>
+        <a href="colors.html" class="custom-btn">Cards</a>
+        <a href="navbar_scroll.html" class="custom-btn">Tooltips</a>
+        <a href="colors.html" class="custom-btn">Alerts</a>
+      </div>
+
+      <div class="flexbox card-footer">
+        <p>4 items</p>
+      </div>
+    </div>
 
   </div>
 
 
 
-
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="javascript/tools.js"></script>
 </body>
 </html>
+

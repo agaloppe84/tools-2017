@@ -1,0 +1,60 @@
+
+.container {
+  padding-top: 70px;
+}
+
+.card {
+  width: 300px;
+  margin: 100px auto;
+  height: 200px;
+}
+
+.navbar-scroll {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.color-change {
+  background-color: rgb(140,140,150);
+}
+
+.color-text-change {
+  color: white;
+}
+
+.shape-change {
+  /*height: 50px;*/
+}
+
+.navbar-container {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
